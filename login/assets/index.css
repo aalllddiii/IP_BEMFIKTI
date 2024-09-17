@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../../assets/images_general/kampusd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.frames {
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    /* border-radius: 10px; */
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 100%;
+    height: 736px;
+    position: relative;
+}
+
+.glassmorph {
+    position: absolute;
+    background: rgba(215, 215, 215, 0.50);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 70%;
+    height: 450px;
+    left: 15%;
+    top: 15%;
+}
+
+label{
+    font-size: 17pt;
+}
+
+.button-custom-terms{
+    background: none; 
+    border: none;
+    text-align: left !important;
+}
+
+@media (max-width: 320px) {
+    body {
+        background-image: url(../../assets/images_general/kampusd.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 584px;
+    }
+
+    .frames{
+        height: 583px;
+    }
+    .glassmorph {
+        width: 85%;
+        height: 450px;
+        left: 8%;
+        top: 8%;
+    }
+}

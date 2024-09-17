@@ -1,0 +1,1 @@
+[14-Jan-2022 15:54:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bemfikti/public_html/IP_BEMFIKTI/config/koneksi.php on line 8

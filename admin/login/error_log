@@ -1,0 +1,2 @@
+[15-Jan-2023 16:53:25 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'oprecvol_volunteerbemfiktiug'@'localhost' to database 'oprecvol_volunteerbemfiktiug' in /home/oprecvol/public_html/admin/config/koneksi.php on line 7
+[15-Jan-2023 17:08:43 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'oprecvol_bemfiktiug'@'localhost' to database 'oprecvol_bemfiktiug' in /home/oprecvol/public_html/admin/config/koneksi.php on line 7

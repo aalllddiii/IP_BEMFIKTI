@@ -1,0 +1,294 @@
+.capt_logo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.fs-13 {
+    font-size: 13pt;
+    line-height: normal;
+}
+
+.fs-18 {
+    font-size: 18pt;
+    line-height: normal;
+}
+
+.fs-12 {
+    font-size: 12pt;
+    line-height: normal;
+}
+
+.todo {
+    height: 545px;
+}
+
+.flex-column-reverse {
+    flex-direction: column !important;
+}
+
+.list-wrapper {
+    overflow-y: scroll !important;
+    overflow: hidden;
+    max-height: 475px;
+}
+
+.footer {
+    padding: 14px 0;
+    background-color: rgb(253, 253, 253) !important;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    font-size: 12pt;
+}
+
+.images-biodata {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.input--file {
+    position: relative;
+    color: #7f7f7f;
+    margin-top: -50px;
+    margin-left: 150px;
+}
+
+.input--file input[type="file"] {
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 10px;
+    opacity: 0;
+}
+
+.icon--camera {
+    width: 40px;
+    height: 40px;
+}
+
+@media (min-width: 1200px) {
+
+    .input--file {
+        position: relative;
+        color: #7f7f7f;
+        margin-top: -50px;
+        margin-left: 150px;
+    }
+
+    .input--file input[type="file"] {
+        position: absolute;
+        margin-left: -40px;
+        margin-top: 10px;
+        opacity: 0;
+    }
+
+    .images-biodata {
+        width: 210px;
+        height: 210px;
+    }
+
+    .icon--camera {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .input--file {
+        position: absolute;
+        color: #7f7f7f;
+        margin-top: -65px;
+        margin-left: 175px;
+    }
+
+    .input--file input[type="file"] {
+        position: absolute;
+        margin-left: -46px;
+        margin-top: 10px;
+        opacity: 0;
+    }
+
+    .images-biodata {
+        width: 230px;
+        height: 230px;
+    }
+
+    .icon--camera {
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .input--file {
+        position: absolute;
+        color: #7f7f7f;
+        margin-top: -65px;
+        margin-left: 190px;
+    }
+
+    .input--file input[type="file"] {
+        position: absolute;
+        margin-left: -46px;
+        margin-top: 10px;
+        opacity: 0;
+    }
+
+    .images-biodata {
+        width: 250px;
+        height: 250px;
+    }
+
+    .icon--camera {
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+@media (min-width: 576px) {
+    .input--file {
+        position: absolute;
+        color: #7f7f7f;
+        margin-top: -50px;
+        margin-left: 120px;
+    }
+
+    .input--file input[type="file"] {
+        position: absolute;
+        margin-left: -37px;
+        margin-top: 10px;
+        opacity: 0;
+    }
+
+    .images-biodata {
+        width: 30%;
+    }
+
+}
+
+@media (min-width: 320px) {
+    .input--file {
+        position: absolute;
+        color: #7f7f7f;
+        margin-top: -45px;
+        margin-left: 110px;
+    }
+
+    .input--file input[type="file"] {
+        position: absolute;
+        margin-left: -35px;
+        margin-top: 10px;
+        opacity: 0 !important;
+    }
+
+    .images-biodata {
+        width: 150px;
+        height: 150px;
+    }
+
+    .icon--camera {
+        width: 40px;
+        height: 40px;
+    }
+
+    .images-desc-logo {
+        width: 200px;
+        height: 200px;
+        padding-bottom: 0px !important;
+    }
+
+    .images-desc-logo-au {
+        width: 120px;
+        height: 120px;
+        padding-bottom: 0px !important;
+    }
+
+    .deskripsi-dept-biro {
+        font-size: 11pt;
+        padding: 0px 30px 20px 30px !important;
+    }
+
+    .bidang-mk {
+        font-size: 9pt;
+        padding: 10px 15px 0px 15px !important;
+    }
+
+}
+
+@media (min-width: 360px) {
+    .input--file {
+        position: absolute;
+        color: #7f7f7f;
+        margin-top: -40px;
+        margin-left: 90px;
+    }
+
+    .input--file input[type="file"] {
+        position: absolute;
+        margin-left: -43px;
+        margin-top: 10px;
+        opacity: 0;
+    }
+
+    .images-biodata {
+        width: 50%;
+    }
+
+    .icon--camera {
+        width: 45px;
+        height: 45px;
+    }
+
+}
+
+@media (min-width: 375px) {
+    .input--file {
+        position: absolute;
+        color: #7f7f7f;
+        margin-top: -50px;
+        margin-left: 150px;
+    }
+
+    .input--file input[type="file"] {
+        position: absolute;
+        margin-left: -43px;
+        margin-top: 10px;
+        opacity: 0;
+    }
+
+    .images-biodata {
+        width: 200px;
+        height: 200px;
+    }
+
+    .icon--camera {
+        width: 45px;
+        height: 45px;
+    }
+
+}
+
+@media (min-width: 425px) {
+    .input--file {
+        position: absolute;
+        color: #7f7f7f;
+        margin-top: -55px;
+        margin-left: 150px;
+    }
+
+    .input--file input[type="file"] {
+        position: absolute;
+        margin-left: -37px;
+        margin-top: 10px;
+        opacity: 0;
+    }
+
+    .images-biodata {
+        width: 200px;
+        height: 200px;
+    }
+}
